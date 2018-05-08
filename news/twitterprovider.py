@@ -9,10 +9,11 @@ AT = settings.TW_TK
 ATS = settings.TW_TK_SEC
 twitter = OAuth1Session(CK, CS, AT, ATS)
 
+
 def get_tweets():
     url = "https://api.twitter.com/1.1/statuses/user_timeline.json"
-    params ={'count' : 10}
-    req = twitter.get(url, params = params)
+    params ={'count': 10}
+    req = twitter.get(url, params=params)
 
     if req.status_code == 200:
         timeline = json.loads(req.text)

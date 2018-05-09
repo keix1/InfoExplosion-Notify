@@ -1,2 +1,4 @@
 python-dotenv
 requests
+pyquery
+requests_oauthlib

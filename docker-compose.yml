@@ -3,6 +3,6 @@ version: '3'
 services:
   code:
     build: ./
-    command: python3 cron/cron.py
+    command: python3 cron.py
     volumes:
       - ./:/code

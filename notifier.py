@@ -16,13 +16,14 @@ class Notifier():
             "title": title,
             "body" : body,
             "data" : data,
+            "click_action": "InfoExplosion",
             "sound": "default",
             "vibrate": "true"
             },
             "data": {
                 "title": title,
-                "body" : body,
-                "data" : data,
+                "body": body,
+                "data": data,
                 "sound": "default",
                 "vibrate": "true"
             },
@@ -33,7 +34,8 @@ class Notifier():
                 "headers": {
                     "Urgency": "high"
                 }
-            }
+            },
+
         }
 
         url = 'https://fcm.googleapis.com/fcm/send'

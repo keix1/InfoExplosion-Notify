@@ -26,7 +26,14 @@ class Notifier():
                 "sound": "default",
                 "vibrate": "true"
             },
-            "priority": "high"
+            "android": {
+                "priority": "high"
+            },
+            "webpush": {
+                "headers": {
+                    "Urgency": "high"
+                }
+            }
         }
 
         url = 'https://fcm.googleapis.com/fcm/send'

@@ -5,7 +5,6 @@ import json
 import requests
 
 API_KEY = settings.AP
-DEVICE_REGISTRATION_ID = settings.DRI
 
 class Notifier():
     def notify(self, title, body, data):
@@ -35,7 +34,6 @@ class Notifier():
                     "Urgency": "high"
                 }
             },
-
         }
 
         url = 'https://fcm.googleapis.com/fcm/send'

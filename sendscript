@@ -1,4 +1,4 @@
-curl --header "Authorization: key=AAAAt9OUl5M:APA91bHPX61_ATFOsAFMTeaIWv1fr_01yaZLGG4Vc7cMbRL8isN34wd2idrZ8zZHW2p2uuBCGwzQgk3jIN9N-PkCCYqg3cuHEkJmAfv6sswhWWvdcLZcFPp1eSMfYkXwEgt8M16c6tO1" \
+curl --header "Authorization: key={API_KEY}" \
      --header Content-Type:"application/json" \
      https://fcm.googleapis.com/fcm/send \
      -d @send.json

@@ -30,6 +30,9 @@ try:
     cursor.execute("INSERT INTO keyword (name) VALUES ('アニメ')")
     cursor.execute("INSERT INTO keyword (name) VALUES ('おすすめ')")
     cursor.execute("INSERT INTO keyword (name) VALUES ('ガジェット')")
+    cursor.execute("INSERT INTO keyword (name) VALUES ('R6S')")
+    cursor.execute("INSERT INTO keyword (name) VALUES ('魔王')")
+    cursor.execute("INSERT INTO keyword (name) VALUES ('世界征服')")
     cursor.execute("INSERT INTO tweetword (name, importance) VALUES ('ソニー', 2)")
     cursor.execute("INSERT INTO published (name, url) VALUES ('ソニーとボーズ、大人気で品薄のネックスピーカーを聞き比べ', 'http://ascii.jp/elem/000/001/663/1663482/')")
 
